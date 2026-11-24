@@ -1,0 +1,147 @@
+
+/* ORDER SUCCESS PAGE */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f5f7fb;
+    color: #1e293b;
+}
+
+/* SUCCESS CONTAINER */
+
+.success-container {
+    max-width: 650px;
+    margin: 60px auto;
+    padding: 35px;
+    background: #ffffff;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.07);
+}
+
+/* SUCCESS ICON */
+
+.success-icon {
+    font-size: 65px;
+    margin-bottom: 18px;
+}
+
+/* HEADING */
+
+.success-container h1 {
+    color: #16a34a;
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+.message {
+    color: #64748b;
+    font-size: 15px;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+/* ORDER DETAILS */
+
+.order-details {
+    text-align: left;
+    background: #f8fafc;
+    padding: 22px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.order-details p {
+    margin-bottom: 13px;
+    line-height: 1.6;
+    overflow-wrap: anywhere;
+}
+
+.order-details strong {
+    color: #0f172a;
+}
+
+/* ORDERED PRODUCTS */
+
+.order-details h3 {
+    margin: 18px 0 10px;
+    color: #0f172a;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 14px 0;
+    border-bottom: 1px solid #e2e8f0;
+    font-size: 14px;
+}
+
+.product strong {
+    white-space: nowrap;
+}
+
+/* TOTAL */
+
+.total {
+    font-size: 21px;
+    font-weight: 700;
+    color: #2563eb;
+    margin-top: 20px;
+}
+
+/* CONTINUE SHOPPING BUTTON */
+
+.btn {
+    display: inline-block;
+    background: #2563eb;
+    color: #ffffff;
+    padding: 14px 28px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 600px) {
+
+    .success-container {
+        margin: 25px 15px;
+        padding: 22px;
+    }
+
+    .success-container h1 {
+        font-size: 23px;
+    }
+
+    .order-details {
+        padding: 16px;
+    }
+
+    .product {
+        font-size: 13px;
+    }
+
+    .total {
+        font-size: 19px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
